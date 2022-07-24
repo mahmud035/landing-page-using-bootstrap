@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* -----------------Utility Classes------------------- */
+.category-area-header,
+.shoes-area-header,
+.backpack-area-header {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #1f1f1f;
+  margin-left: 0;
+}
+
+.card-body-header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1f1f1f;
+}
+
+.product-price {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.shoes-area,
+.backpack-area {
+  background: #f4f4f4;
+  padding: 2rem 0 5rem;
+}
+
+.category-area-container,
+.shoes-area-container,
+.backpack-area-container {
+  padding: 0 2.5rem;
+}
+
+/* ------------------Header Section----------------- */
+header {
+  background-color: #ffffff;
+}
+
+/* -----------------Showcase Section---------------- */
+.showcase-area {
+  margin: 4rem 0;
+  padding: 0 1rem;
+}
+
+.showcase-area-container {
+  background: #feeae9;
+  border-radius: 20px;
+  padding: 2.5rem;
+}
+
+.showcase-header {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 600;
+  color: #1f1f1f;
+}
+
+.showcase-area-container p {
+  line-height: 26px;
+  color: #4e4e4e;
+  padding-right: 3rem;
+}
+
+.showcase-price {
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 61px;
+  color: #ff136f;
+  margin: 0 0 1.1rem 0;
+}
+
+.showcase-btn {
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 0.625rem 1rem;
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+
+/* ----------------Category Section---------------- */
+.category-area {
+  margin: 4rem 0 3rem;
+}
+
+.watch-background {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+  border-radius: 10px;
+  margin-left: 0;
+}
+
+.bag-background {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+  border-radius: 10px;
+  margin-left: 0;
+}
+
+.shoes-background {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+  border-radius: 10px;
+  margin-left: 0;
+}
+
+.product-name {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #ffffff;
+}
+
+/* -----------------Shoes Section------------------ */
+.see-more {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ff9d00;
+}
+
+.shoes-card-background {
+  background: #ffffff;
+  border-radius: 20px;
+  border: none;
+  padding: 0.5rem 0;
+}
+
+.btn-background {
+  background: #000000;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 0.625rem 1rem;
+}
+
+.btn-background:hover {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.btn-background .fa-arrow-right {
+  margin-left: 5px;
+}
+
+/* ----------------Contact Section------------------ */
+.contact-area {
+  padding: 4rem 0;
+}
+
+.contact-area-container {
+  height: 450px;
+  background-color: #fff2f1;
+  border-radius: 20px;
+}
+
+.contact-area-container h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #1f1f1f;
+}
+
+.contact-area-container p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+
+.contact-area-container input[type='email'] {
+  font-size: 1rem;
+  line-height: 36px;
+  color: #cccccc;
+  border: 0;
+  padding: 0.5rem 5rem 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.send-info {
+  background: linear-gradient(180deg, #ff589b 0%, #ff136f 100%);
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 36px;
+  color: #ffffff;
+  padding: 0.425rem 1.5rem;
+}
+
+/* -----------------Footer Section------------------- */
+footer {
+  height: 50px;
+}
+
+/* ---------------------Media Query--------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+  .showcase-header {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .form-hide {
+    display: none;
+    background-color: #ff136f;
+  }
+}
+
+@media (max-width: 500px)  {
+  .form-hide {
+    display: none;
+    background-color: #ff136f;
+  }
+}
