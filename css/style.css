@@ -47,10 +47,10 @@ header {
 }
 
 /* -----------------Showcase Section---------------- */
-.showcase-area {
+/* .showcase-area {
   margin: 4rem 0;
   padding: 0 1rem;
-}
+} */
 
 .showcase-area-container {
   background: #feeae9;
@@ -218,7 +218,7 @@ footer {
   }
 }
 
-@media (max-width: 500px)  {
+@media (max-width: 500px) {
   .form-hide {
     display: none;
     background-color: #ff136f;
